@@ -13,7 +13,8 @@ class App extends Component {
       
 
     };
-    //this.handleChange=this.handleChange.bind(this);
+    //this.handleChange=this.handleChange.bind(this);"homepage": "https://IITkanhaiya.github.io/monsters-rolodex","predeploy": "npm build",
+    //"deploy": "gh-pages -d build"
   }
   // handleChange(e)
   // {
@@ -41,7 +42,8 @@ class App extends Component {
       <CardList monsters={filteredMonsters}/>
       
     </div>
-  );}
+  );
+}
 };
 
 
